@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where in the World?</title>
+
+  <link rel="icon" type="image/x-icon" href="/media/favico.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <link rel="stylesheet" href="./css/globals.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <style>
+    p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="mb-1">
+    <nav class="navbar">
+      <div class="container justify-content-between align-items-center mx-2">
+        <h3 class="font-800 my-2 mx-1">
+          Where in the world?
+        </h3>
+
+        <button class="btn btn-transparent mx-1">
+          <span class="material-symbols-rounded mr-1" aria-hidden="true">
+            dark_mode
+          </span>
+          <span class="mr-1">
+            Dark Mode
+          </span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main class="bg-light-gray">
+    <section class="container d-flex flex-sm-column justify-content-between">
+      <div class="row justify-content-between">
+        <div class="col-4 col-md-12">
+          <div class="my-3 mx-1 position-relative search-container w-100">
+            <span class="material-symbols-rounded position-absolute search-icon" aria-hidden="true">
+              search
+            </span>
+            <input type="text" name="search_country" id="country" class="search-field w-100"
+              placeholder="Search for a country...">
+          </div>
+        </div>
+        <div class="col-2 col-md-6">
+          <div class="select-container mx-1 my-3 position-relative w-100">
+            <input type="text" class="select w-100" placeholder="Filter By Region" readonly>
+            <span class="material-symbols-rounded position-absolute expand-icon">
+              expand_more
+            </span>
+            <ul class="select-options w-100">
+              <li>Africa</li>
+              <li>America</li>
+              <li>Asia</li>
+              <li>Europe</li>
+              <li>Oceania</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="container d-flex flex-column">
+      <div class="row">
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/de.svg" alt="Germany Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Germany</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 81,770,900
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Europe
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Berlin
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/us.svg" alt="United States of America Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">United States of America</a>
+              </h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 323,947,000
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Americas
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Washington, D.C.
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/br.svg" alt="Brazil Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Brazil</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 206,135,893
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Americas
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Brasília
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/is.svg" alt="Iceland Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Iceland</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 334,300
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Europe
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Reykjavík
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/af.svg" alt="Afghanistan Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Afghanistan</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 27,657,145
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Asia
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Kabul
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/ax.svg" alt="Åland Icelands Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Åland Icelands</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 28,875
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Europe
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Mariehamn
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/al.svg" alt="Brazil Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Albania</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 2,886,026
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Europe
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Tirana
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div class="card mb-4">
+            <img src="./media/flags/dz.svg" alt="Iceland Flag" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title"><a href="/country.html" class="text-none text-black">Algeria</a></h3>
+              <section class="card-text">
+                <p class="card-text">
+                  <span class="font-600">
+                    Population:</span> 40,400,000
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Region:</span> Africa
+                </p>
+                <p class="card-text">
+                  <span class="font-600">
+                    Capital:</span> Algiers
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

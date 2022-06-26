@@ -1,0 +1,375 @@
+/*
+source https://codepen.io/Brejkish/pen/qqmXqW
+but the media query added by me to mimic the bootstrap grid system
+*/
+
+/* 1/12 */
+.col-1 {
+  width: 8.33%;
+}
+
+/* 2/12 */
+.col-2 {
+  width: 16.66%;
+}
+
+/* 3/12 */
+.col-3 {
+  width: 25%;
+}
+
+/* 4/12 */
+.col-4 {
+  width: 33.33%
+}
+
+/* 5/12 */
+.col-5 {
+  width: 41.66%;
+}
+
+/* 6/12 */
+.col-6 {
+  width: 50%;
+}
+
+/* 7/12 */
+.col-7 {
+  width: 58.33%;
+}
+
+/* 8/12 */
+.col-8 {
+  width: 66.66%;
+}
+
+/* 9/12 */
+.col-9 {
+  width: 75%;
+}
+
+/* 10/12 */
+.col-10 {
+  width: 83.33%;
+}
+
+/* 11/12 */
+.col-11 {
+  width: 91.66%;
+}
+
+/* 12/12 */
+.col-12 {
+  width: 100%;
+}
+
+
+@media (max-width: 1399px) {
+  /* 1/12 */
+  .col-xxl-1 {
+    width: 8.33%;
+  }
+
+  /* 2/12 */
+  .col-xxl-2 {
+    width: 16.66%;
+  }
+
+  /* 3/12 */
+  .col-xxl-3 {
+    width: 25%;
+  }
+
+  /* 4/12 */
+  .col-xxl-4 {
+    width: 33.33%
+  }
+
+  /* 5/12 */
+  .col-xxl-5 {
+    width: 41.66%;
+  }
+
+  /* 6/12 */
+  .col-xxl-6 {
+    width: 50%;
+  }
+
+  /* 7/12 */
+  .col-xxl-7 {
+    width: 58.33%;
+  }
+
+  /* 8/12 */
+  .col-xxl-8 {
+    width: 66.66%;
+  }
+
+  /* 9/12 */
+  .col-xxl-9 {
+    width: 75%;
+  }
+
+  /* 10/12 */
+  .col-xxl-10 {
+    width: 83.33%;
+  }
+
+  /* 11/12 */
+  .col-xxl-11 {
+    width: 91.66%;
+  }
+
+  /* 12/12 */
+  .col-xxl-12 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 1199px) {
+  /* 1/12 */
+  .col-xl-1 {
+    width: 8.33%;
+  }
+
+  /* 2/12 */
+  .col-xl-2 {
+    width: 16.66%;
+  }
+
+  /* 3/12 */
+  .col-xl-3 {
+    width: 25%;
+  }
+
+  /* 4/12 */
+  .col-xl-4 {
+    width: 33.33%
+  }
+
+  /* 5/12 */
+  .col-xl-5 {
+    width: 41.66%;
+  }
+
+  /* 6/12 */
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  /* 7/12 */
+  .col-xl-7 {
+    width: 58.33%;
+  }
+
+  /* 8/12 */
+  .col-xl-8 {
+    width: 66.66%;
+  }
+
+  /* 9/12 */
+  .col-xl-9 {
+    width: 75%;
+  }
+
+  /* 10/12 */
+  .col-xl-10 {
+    width: 83.33%;
+  }
+
+  /* 11/12 */
+  .col-xl-11 {
+    width: 91.66%;
+  }
+
+  /* 12/12 */
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 991px) {
+  /* 1/12 */
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  /* 2/12 */
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  /* 3/12 */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* 4/12 */
+  .col-lg-4 {
+    width: 33.33%
+  }
+
+  /* 5/12 */
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  /* 6/12 */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* 7/12 */
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  /* 8/12 */
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  /* 9/12 */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* 10/12 */
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
+  /* 11/12 */
+  .col-lg-11 {
+    width: 91.66%;
+  }
+
+  /* 12/12 */
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 767px) {
+  /* 1/12 */
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  /* 2/12 */
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  /* 3/12 */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* 4/12 */
+  .col-md-4 {
+    width: 33.33%
+  }
+
+  /* 5/12 */
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  /* 6/12 */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* 7/12 */
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  /* 8/12 */
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  /* 9/12 */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* 10/12 */
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  /* 11/12 */
+  .col-md-11 {
+    width: 91.66%;
+  }
+
+  /* 12/12 */
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 575px) {
+  /* 1/12 */
+  .col-sm-1 {
+    width: 8.33%;
+  }
+
+  /* 2/12 */
+  .col-sm-2 {
+    width: 16.66%;
+  }
+
+  /* 3/12 */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* 4/12 */
+  .col-sm-4 {
+    width: 33.33%
+  }
+
+  /* 5/12 */
+  .col-sm-5 {
+    width: 41.66%;
+  }
+
+  /* 6/12 */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* 7/12 */
+  .col-sm-7 {
+    width: 58.33%;
+  }
+
+  /* 8/12 */
+  .col-sm-8 {
+    width: 66.66%;
+  }
+
+  /* 9/12 */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* 10/12 */
+  .col-sm-10 {
+    width: 83.33%;
+  }
+
+  /* 11/12 */
+  .col-sm-11 {
+    width: 91.66%;
+  }
+
+  /* 12/12 */
+  .col-sm-12 {
+    width: 100%;
+  }
+}
