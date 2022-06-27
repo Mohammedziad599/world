@@ -17,6 +17,19 @@ body {
   margin: 0;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row > *{
+  max-width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .font-300 {
   font-weight: 300;
 }
@@ -107,6 +120,10 @@ body {
   margin-right: 0.5rem;
 }
 
+.mr-2{
+  margin-right: 1rem;
+}
+
 .ml-1 {
   margin-left: 0.5rem;
 }
@@ -117,6 +134,10 @@ body {
 
 .p-1 {
   padding: 0.5rem;
+}
+
+.pr-2{
+  padding-right: 1rem;
 }
 
 .position-absolute {
@@ -213,19 +234,6 @@ body {
   display: flex;
   margin: 0 auto;
   max-width: 1320px;
-}
-
-.row{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.row > *{
-  max-width: 100%;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 @media(min-width: 575px) {
